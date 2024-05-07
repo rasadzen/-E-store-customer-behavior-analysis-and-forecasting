@@ -1,9 +1,12 @@
 # E-Parduotuvės klientų elgsenos analizė ir prognozavimas
+✔ Baigiamasis kurso darbas
 
-### Projekto autorės:
-- Samanta Čečkauskaitė
+
+### Projekto autorės💻:
 - Rasa Dzenkauskaitė
-## Įvadas:
+- Samanta Čečkauskaitė
+
+## Tikslas:
 Analizuoti e-parduotuvės klientų pirkimo elgseną ir prognozuoti būsimus pirkimų kiekius, taip padedant verslui geriau suprasti klientų poreikius.
 
 
@@ -17,7 +20,7 @@ Python ✦ TensorFlow/Keras ✦ Plotly ✦ Seaborn ✦ Scikit-Learn ✦ Pandas �
 ## Darbo etapai:
 
 ### - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-## 1.Duomenų valymas ir paruošimas naudojimui:
+## 1.Duomenų valymas ir paruošimas:
 
 ```javascript
 
@@ -50,15 +53,15 @@ df['Purchase Month'] = df['Purchase Date'].dt.month_name()
 
 ## 2. Duomenų analizė pagal klientus:
 
-Analaziuojame kurios lyties klientai perka daugiausiai ir matome, kad abi lytis išleidžia panašią sumą pinigų.
+Analaziuojama kurios lyties klientai perka daugiausiai ir matome, kad nepriklausomai nuo lyties išleidžiama panaši pinigų suma.
 
 | Nr |	Lytis |	Suma |
 |-------|------|--------------|
 |1  |Moteris	|342462421
 |2	|Vyras	|338880262
 
-Analizuojame klientų kiekį pagal amžiaus grupes ir matome, kad didžiausią mūsų klientų kiekį sudaro nuo 25 m. iki 50 metų grupės, o mažiausią kiekį sudaro klientai iki 25 metų.
-Tai mums leidžią žinoti, kurio amžiaus žmonės apsiperka daugiausiai.
+Analizuojamas klientų kiekis pagal amžiaus grupes, matoma kad didžiausią klientų kiekį sudaro nuo 25 m. iki 50 metų grupė, o mažiausias kiekis sudaro klientai iki 25 metų.
+Tai leidžia žinoti, kuri amžiaus grupė yra tikslinė auditorija.
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/047d2e07-10ef-4f3b-9cdb-0bb2fcf66d49" 
      width="480" 
@@ -70,7 +73,7 @@ Tai mums leidžią žinoti, kurio amžiaus žmonės apsiperka daugiausiai.
 |Klientai nuo 25 m. iki 50 m.|112988
 |Klientai nuo 50 m.|94081
 
-Analizuojame klientų pasirinkimą į prenumeratą/naujienlaiškį ir matome, kad tik 20% visų klientų renkasi gauti naujienlaiškį. Iš to galime spręsti, kad E parduotuvei paslauga nenaudinga.
+Analizuojamas klientų pasirinkimas į prenumeratą/naujienlaiškį ir matoma, kad tik 20% klientų renkasi gauti naujienlaiškį. Iš to galima spręsti, kad E parduotuvei paslauga nėra naudinga.
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/55907cdc-5cb3-43bf-81d5-2b47ce6172df"
      width="480" 
@@ -81,7 +84,7 @@ Analizuojame klientų pasirinkimą į prenumeratą/naujienlaiškį ir matome, ka
 | Nesirenka |200126
 |Renkasi  |49874
 
-Klientų atsiskaitymo būdų analizė. Matome, kad klientai labiau linkę atsiskaityti Kreditine kortele 40% ir PayPal 30%. Siūlome reklamuoti, kad E parduotuvėje galima atsiskaityti šitais būdais.
+Klientų atsiskaitymo būdų analizė. Matoma, kad klientai linkę labiau atsiskaityti Kreditine kortele 40% ir PayPal 30%. Siūlymas  būtų reklamuoti, kad E parduotuvėje galima atsiskaityti šitais būdais.
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/bb35c427-e60a-4e71-bc3b-cbd65127a23a"
      width="480" 
@@ -97,7 +100,7 @@ Klientų atsiskaitymo būdų analizė. Matome, kad klientai labiau linkę atsisk
 
 ## Duomenų analizė pagal pirkimus:
 
-Labiausiai perkamos prekių kategorijos per visą laikotarpį. Matome, kad daugiausiai perka knygas ir rūbus, tad siūlytume juos reklamuoti daugiausiai ir turėti daugiau inventoriaus šiom kategorijom.
+Labiausiai perkamos prekių kategorijos per visą laikotarpį. Matoma, kad daugiausiai perkamos knygos ir rūbai. Siūlymas reklamuoti daugiausiai ir turėti daugiau inventoriaus šioms kategorijoms.
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/b3d3172a-a558-4cfc-8d12-1e9aa4392d84"
      width="500" 
@@ -110,7 +113,7 @@ Labiausiai perkamos prekių kategorijos per visą laikotarpį. Matome, kad daugi
 | 3. |Electronics    |150828
 | 4. |Home           |149698
 
-Apžiūrime pardavimus per mėnesį ir metus.
+Apžiūrimi pardavimai per mėnesį ir metus.
 
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/8f327f1d-096d-4fb7-8ee9-f67ac3eb13d0"
