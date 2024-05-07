@@ -73,7 +73,7 @@ Tai leidžia žinoti, kuri amžiaus grupė yra tikslinė auditorija.
 |Klientai nuo 25 m. iki 50 m.|112988
 |Klientai nuo 50 m.|94081
 
-Analizuojamas klientų pasirinkimas į prenumeratą/naujienlaiškį ir matoma, kad tik 20% klientų renkasi gauti naujienlaiškį. Iš to galima spręsti, kad E parduotuvei paslauga nėra naudinga.
+Analizuojamas klientų pasirinkimas į prenumeratą/naujienlaiškį ir matoma, kad tik 20% klientų renkasi gauti naujienlaiškį. Iš to galima spręsti, kad E parduotuvei paslauga mažai naudinga.
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/55907cdc-5cb3-43bf-81d5-2b47ce6172df"
      width="480" 
