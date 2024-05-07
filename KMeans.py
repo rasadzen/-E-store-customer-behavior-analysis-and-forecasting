@@ -54,11 +54,9 @@ features['Cluster'] = kmeans_best.fit_predict(features_scaled)
 
 # --Vizualizacija--
 plt.figure(figsize=(10, 8))
-plt.scatter(features_scaled[:, 2], features_scaled[:, 3], c=features['Cluster'], cmap='viridis')
+plt.scatter(features_scaled[:, 1], features_scaled[:, 3], c=features['Cluster'], cmap='viridis')
 plt.title('Klientų segmentacija naudojant Kmeans')
 plt.xlabel('Standartizuotas išleistas bendras kiekis')
 plt.ylabel('Standartizuotas bendras išleistas pinigų kiekis per pirkimą')
 plt.colorbar(label='Klasteris')
 plt.show()
-
-
