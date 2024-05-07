@@ -61,7 +61,7 @@ Analaziuojama kurios lyties klientai perka daugiausiai ir matome, kad nepriklaus
 |2	|Vyras	|338880262
 
 Analizuojamas klientų kiekis pagal amžiaus grupes, matoma kad didžiausią klientų kiekį sudaro nuo 25 m. iki 50 metų grupė, o mažiausias kiekis sudaro klientai iki 25 metų.
-Tai leidžia žinoti, kuri amžiaus grupė yra tikslinė auditorija.
+Tai leidžia žinoti, kuri amžiaus grupė yra tikslinė auditorija. 
 
 <img src="https://github.com/Samantjna/E-Store-Customer-Behavior-Analysis-and-Forecasting/assets/163418549/047d2e07-10ef-4f3b-9cdb-0bb2fcf66d49" 
      width="480" 
