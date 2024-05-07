@@ -51,7 +51,7 @@ df['Purchase Year'] = df['Purchase Date'].dt.year
 df['Purchase Month'] = df['Purchase Date'].dt.month_name()
 ```
 
-## 2. Duomenų analizė pagal klientus:
+## 2. Duomenų analizė:
 
 Analaziuojama kurios lyties klientai perka daugiausiai ir matome, kad nepriklausomai nuo lyties išleidžiama panaši pinigų suma.
 
